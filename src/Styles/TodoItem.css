@@ -1,0 +1,27 @@
+.todo-item {
+  display: flex;
+  align-items: center;
+}
+
+.todo-item-buttons {
+  margin-left: auto; 
+}
+.todo-item-buttons button {
+  margin-left: 10px; 
+  background-color: red; 
+  border: none;
+  color: white; 
+  padding: 10px 20px; 
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s; 
+  cursor: pointer;
+  font-size: 19px;
+}
+
+.todo-item-buttons button:hover {
+  background-color: white; 
+  color: black; 
+}
